@@ -22,6 +22,9 @@ fi
 # fluidsynth basic settings
 #fluidsynth -a alsa --gain 5 /usr/share/sounds/sf2/FluidR3_GM.sf2
 
+# fluidsynth alsa external
+#fluidsynth -a alsa -o audio.alsa.device=hw:2 --gain 1 /usr/share/sounds/sf2/FluidR3_GM.sf2
+
 # fluidsynth without jack
 #fluidsynth \
 #  -o audio.alsa.device=hw:0 \
